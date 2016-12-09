@@ -97,6 +97,7 @@ public class FinchTest
 		while(System.currentTimeMillis() - before < testtime)
 		{
 			System.out.println(myf.getTemperature());
+			System.out.println("Hello");
 		}
 	}
 	//Run the obstacle sensor test
